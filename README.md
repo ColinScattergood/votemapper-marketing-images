@@ -5,13 +5,23 @@ Buffer's API only accepts images by public URL; the marketing repo
 (`votemapper-marketing`, private) cannot serve them.
 
 Files are published by the Content Engine (`votemapper-marketing/content-engine`)
-when a human approves an item. Nothing else writes here.
+when a human approves an item, or by hand for a campaign asset a human has approved
+(see Layout). Nothing else writes here.
 
 ## Layout
 
 ```
 votemapper/<contentId>/9x16/01.jpg …   1080×1920, TikTok photo posts, Reels, Stories
 votemapper/<contentId>/4x5/01.jpg …    1080×1350, Instagram and Threads
+```
+
+Hand-made campaign assets that the Content Engine did not render sit beside them under their
+own campaign id, keeping their original file names and format:
+
+```
+votemapper/chatgpt-app-2026/screens/01-scenario-map.png …   ChatGPT app screenshots (from the
+                                                             marketing repo's
+                                                             Marketing/listing-assets/mcp/submission/)
 ```
 
 URL form:
