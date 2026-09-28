@@ -5,7 +5,9 @@ Buffer's API only accepts images by public URL; the marketing repo
 (`votemapper-marketing`, private) cannot serve them.
 
 Files are published by the Content Engine (`votemapper-marketing/content-engine`)
-when a human approves an item. Nothing else writes here.
+when a human approves an item, and by the feature-launch carousels in
+`votemapper-marketing/Marketing/Social/` (contentIds starting `feat-`) once they are
+reviewed and merged. Nothing else writes here.
 
 ## Layout
 
