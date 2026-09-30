@@ -10,9 +10,10 @@ when a human approves an item, by the feature-launch carousels in
 `votemapper-marketing/Marketing/Social/` (contentIds starting `feat-`) once they are
 reviewed and merged, by App Store screenshot sets from
 `votemapper-marketing/Marketing/screenshots-ppo-*` (contentIds starting `shots-`) once a
-human has checked they show the current UI, and by the rendered video ads from
+human has checked they show the current UI, by the rendered video ads from
 `votemapper-marketing/Scripts/ads/` (contentIds starting `ad-`) once a human has watched
-the cut. Nothing else writes here. **Never publish a screenshot of the pre-Canvass UI**
+the cut, and by hand for a campaign asset a human has approved (see Layout). Nothing
+else writes here. **Never publish a screenshot of the pre-Canvass UI**
 (anything before app 1.40, Aug 27, 2026).
 
 ## Layout
@@ -47,6 +48,7 @@ iPhone ones are taller than 9:16, so Instagram and TikTok need a `4x5` / `9x16` 
 | `shots-20260927-decision-desk` | iphone, ipad (6 each) | October 2026 PPO treatment: navy election-night broadcast look |
 | `shots-20260927-group-chat` | iphone, ipad (6 each) | October 2026 PPO treatment: the app inside a Messages thread |
 | `shots-20260915-ppo-146` | iphone (8) | The 1.46 PPO set that went live on Sep 15, 2026 |
+| `chatgpt-app-2026` | screens (6 PNG, 706 px wide) | ChatGPT app screenshots, by hand from the marketing repo's `Marketing/listing-assets/mcp/submission/`; original file names kept |
 
 URL form:
 
